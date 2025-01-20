@@ -56,5 +56,5 @@
 - Problem 2: https://youtu.be/3SJ3pUkPQMc
 # DP Problems video solution
 - Problem 1: https://youtu.be/mLfjzJsN8us?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
-- Problem 2:
+- Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 3:
