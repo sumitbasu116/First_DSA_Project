@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class FrogJumpOne {
 
 	public static void main(String[] args) {
-		int n = 6;
-		int[] arr = { 30, 10, 60, 10, 60, 50 };
+		int n = 4;
+		//int[] arr = { 30, 10, 60, 10, 60, 50 };
+		int[] arr = {10 ,20, 30, 10};
 
 		solve(arr, n);
 
@@ -26,11 +27,13 @@ public class FrogJumpOne {
 		if (res[n] != -1) {
 			return res[n];
 		}
-		int right = Integer.MAX_VALUE;
-		int left = solveMinEnergy(arr, res, n - 1) + Math.abs(arr[n] - arr[n - 1]);
+		int secondJump = Integer.MAX_VALUE;
+		//Frog can jump only 1 steps or two steps
+		//while jumping from nth step to (n-1)th step, it looses (arr[n] - arr[n - 1]) energy.
+		int firstJump = solveMinEnergy(arr, res, n - 1) + Math.abs(arr[n] - arr[n - 1]);
 		if (n > 1) {
-			right = solveMinEnergy(arr, res, n - 2) + Math.abs(arr[n] - arr[n - 2]);
+			secondJump = solveMinEnergy(arr, res, n - 2) + Math.abs(arr[n] - arr[n - 2]);
 		}
-		return res[n] = Math.min(left, right);
+		return res[n] = Math.min(firstJump, secondJump);
 	}
 }
