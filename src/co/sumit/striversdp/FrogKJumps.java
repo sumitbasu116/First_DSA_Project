@@ -37,6 +37,8 @@ public class FrogKJumps {
 		int en=0;
 		for(int i=1;i<=k;i++) {
 			if(n-i>=0) {//i should not be greater than index or n.
+				//Frog can jump only 1 steps or two steps
+				//while jumping from nth step to (n-1)th step, it looses (arr[n] - arr[n - 1]) energy.
 				en=solveMinEnergyOfKJumps(arr,res,n-i,k)+Math.abs(arr[n]-arr[n-i]);
 				min=Math.min(min, en);
 			}
