@@ -5,6 +5,9 @@
 # Stocks Problems
 - Problem 1: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 - Problem 2: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+# DP Problems
+- Problem 1: https://leetcode.com/problems/climbing-stairs/description/
+- Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
 # Sliding Window Problems
 -
 -
@@ -45,9 +48,13 @@
 - Problem 1: Keep the purchase price minimum and the profit should be maximum.
 - Problem 2: If an element is larger than the previous then add the difference in the profit.
 # Interval Problems video solution
-- Problem 1: https://youtu.be/PaJxqZVPhbg)
+- Problem 1: https://youtu.be/PaJxqZVPhbg
 - Problem 2: https://youtu.be/44H3cEC2fFM
 - Problem 3: https://youtu.be/FdzJmTCVyJU
 # Stocks Problems video solution
 - Problem 1: https://youtu.be/excAOvwF_Wk
 - Problem 2: https://youtu.be/3SJ3pUkPQMc
+# DP Problems video solution
+- Problem 1: https://youtu.be/mLfjzJsN8us?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
+- Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
+- Problem 3:
