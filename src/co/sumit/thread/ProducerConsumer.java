@@ -6,80 +6,82 @@ import java.util.Random;
 
 public class ProducerConsumer {
 
-	private static class PC {
-		private Queue<Integer> Q = new LinkedList<>();
-		private final int CAP = 6;
-
+	private static class PC{
+		private Queue<Integer> Q;
+		private int CAP;
+		
+		public PC(int size) {
+			this.CAP=size;
+			Q= new LinkedList<>();
+		}
+		
 		public void produce() throws InterruptedException {
 			synchronized (this) {
-				while (true) {
-					if (Q.size() == CAP) {
+				while(true) {
+					if(Q.size()==CAP) {
 						wait();
 					}
-					int item = createItem();
-					System.out.println("Produced Item:" + item);
-					Q.offer(item);
+					Q.offer(createItem());
 					Thread.sleep(1000);
 					notifyAll();
 				}
 			}
-
 		}
-
+		
 		public void consume() throws InterruptedException {
 			synchronized (this) {
-				while (true) {
-					if (Q.isEmpty()) {
+				while(true) {
+					if(Q.isEmpty()) {
 						wait();
 					}
-					int item = Q.poll();
-					processedItem(item);
+					int item=Q.poll();
 					Thread.sleep(1000);
+					processItem(item);
 					notifyAll();
 				}
 			}
-
 		}
 
-		private int processedItem(int item) {
-			System.out.println("Processed Item:" + item);
-			return item;
+		private void processItem(int item) {
+			System.out.println("Processing item:"+item);
 		}
 
 		private int createItem() {
-			int item = new Random().nextInt(100);
+			int item=new Random().nextInt(90);
+			System.out.println("Producing item:"+item);
 			return item;
 		}
 	}
-
+	
+	
 	public static void main(String[] args) throws InterruptedException {
-		PC pc = new PC();
-		Runnable producer = () -> {
-
+		
+		PC pc = new PC(6);
+		
+		Runnable producer = ()->{
 			try {
 				pc.produce();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		};
-
-		Runnable consumer = () -> {
-
+		Runnable cosnumer = ()->{
 			try {
 				pc.consume();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		};
+		
+		Thread prodT=new Thread(producer);
+		Thread consT=new Thread(cosnumer);
+		
+		prodT.start();
+		consT.start();
+		
+		prodT.join();
+		consT.join();
 
-		Thread t1 = new Thread(producer);
-		Thread t2 = new Thread(consumer);
-
-		t1.start();
-		t2.start();
-
-		t1.join();
-		t2.join();
 	}
 
 }
