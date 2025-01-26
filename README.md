@@ -8,6 +8,9 @@
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
 - Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
+- Problem 3: https://www.naukri.com/code360/problems/maximum-sum-of-non-adjacent-elements_843261
+- Problem 4: https://www.naukri.com/code360/problems/house-robber_6211018
+- Problem 5: https://www.naukri.com/code360/problems/house-robber_839733
 # Sliding Window Problems
 -
 -
@@ -57,4 +60,5 @@
 # DP Problems video solution
 - Problem 1: https://youtu.be/mLfjzJsN8us?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
-- Problem 3:
+- Problem 3: https://youtu.be/GrMBfJNk_NY?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
+- Problem 5: https://youtu.be/3WaxQMELSkw?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
