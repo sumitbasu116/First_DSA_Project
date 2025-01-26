@@ -2,6 +2,7 @@ package co.sumit.striversdp;
 
 import java.util.Arrays;
 
+//Also the House Robbe 1 problem: https://www.naukri.com/code360/problems/house-robber_6211018
 public class MaximumSumNonAdjacentElements {
 
 	public static void main(String[] args) {
