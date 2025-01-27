@@ -45,6 +45,9 @@ public class NinjasTraining {
 			}
 			return dp[n][lastTask]=maxi;
 		}
+		if(dp[n][lastTask]!=-1) {
+			return dp[n][lastTask];
+		}
 		maxi=0;
 		int point=0;
 		for(int task=0;task<noOfTask;task++) {
