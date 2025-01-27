@@ -11,6 +11,7 @@
 - Problem 3: https://www.naukri.com/code360/problems/maximum-sum-of-non-adjacent-elements_843261
 - Problem 4: https://www.naukri.com/code360/problems/house-robber_6211018
 - Problem 5: https://www.naukri.com/code360/problems/house-robber_839733
+- Problem 6: https://www.naukri.com/code360/problems/ninja-s-training_3621003
 # Sliding Window Problems
 -
 -
@@ -62,3 +63,4 @@
 - Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 3: https://youtu.be/GrMBfJNk_NY?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 5: https://youtu.be/3WaxQMELSkw?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
+- Problem 6: https://youtu.be/AE39gJYuRog?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
