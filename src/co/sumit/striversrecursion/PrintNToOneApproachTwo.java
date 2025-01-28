@@ -1,23 +1,20 @@
 package co.sumit.striversrecursion;
 
-public class PrintNToOne {
-
+public class PrintNToOneApproachTwo {
 	public static void main(String[] args) {
 		int n = 4;
 		solve(n);
 	}
 
 	private static void solve(int n) {
-		int i = 1;
-		f(i, n);
+		f(n,n);
 	}
 
 	private static void f(int i, int n) {
-		if (i > n) {
+		if(i<1) {
 			return;
-		}		
-		f(i + 1, n);
-		System.out.print(i + " ");
+		}
+		System.out.print(i+" ");
+		f(i-1,n);
 	}
-
 }
