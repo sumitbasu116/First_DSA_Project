@@ -5,7 +5,7 @@
 # Stocks Problems
 - Problem 1: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 - Problem 2: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
-# Recursion Problems (only available in recursion branch)
+# Recursion Problems (only available in `recursion` branch)
 - Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintOneToN,PrintNToOne
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
