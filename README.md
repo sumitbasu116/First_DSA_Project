@@ -6,7 +6,7 @@
 - Problem 1: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 - Problem 2: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 # Recursion Problems (only available in `recursion` branch)
-- Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintOneToN,PrintNToOne
+- Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintNToOneApproachOne,PrintNToOneApproachTwo
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
 - Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
