@@ -17,7 +17,7 @@ public class PrintAllSubSequenceRecursion {
 	}
 
 	private static void f(int[] arr, int i, List<Integer> list) {
-		if(i>=arr.length) {
+		if(i==arr.length) {
 			list.stream().forEach(e->System.out.print(e+" "));
 			System.out.println();
 			return;
