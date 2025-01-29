@@ -6,7 +6,9 @@
 - Problem 1: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 - Problem 2: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 # Recursion Problems (only available in `recursion` branch)
-- Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintOneToN,PrintNToOneApproachOne,PrintNToOneApproachTwo,PrintOneToNWithoutPlus
+- Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintOneToN,PrintNToOneApproachOne,PrintNToOneApproachTwo,PrintOneToNWithoutPlus,PrintSumFirstNNumbersRecursion,PrintSumFirstNNumbersRecursionFunction, ReverseArrayRecursionTwoParameters,StringPalindromeRecursion,FibonacciRecursion,FibonacciRecursionTwoFunctionBreakdown.
+- Problem 2: PrintAllSubSequenceRecursion
+- Problem 3: PrintAllSubSequenceSumKRecursion
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
 - Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
@@ -60,6 +62,9 @@
 # Stocks Problems video solution
 - Problem 1: https://youtu.be/excAOvwF_Wk
 - Problem 2: https://youtu.be/3SJ3pUkPQMc
+# Recursion Problems video solution
+- Problem 2: https://youtu.be/AxNNVECce8c?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 3: https://youtu.be/eQCS_v3bw0Q?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
 # DP Problems video solution
 - Problem 1: https://youtu.be/mLfjzJsN8us?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
