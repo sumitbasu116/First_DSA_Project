@@ -3,7 +3,8 @@ package co.sumit.striversrecursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintAllSubSequenceSumKRecursion {
+public class PrintOnlyOneSubSequenceOfSumRecursion {
+
 	public static void main(String[] args) {
 		int[] arr = {3,1,2,7,4};
 		int k=7;
@@ -12,27 +13,36 @@ public class PrintAllSubSequenceSumKRecursion {
 	}
 
 	private static void solve(int[] arr, int k) {
-		List<Integer> list=new ArrayList<>();
-		f(arr,0,k,list,0);
+		List<Integer> list = new ArrayList<>();
+		
+		f(arr,arr.length,0,0,k,list);
 		
 	}
 
-	private static void f(int[] arr, int i, int k, List<Integer> list,int sum) {
+	private static boolean f(int[] arr,int n, int i,int sum, int k, List<Integer> list) {
 		
-		if(i==arr.length) {
+		if(i==n) {
 			if(sum==k) {
 				list.stream().forEach(e->System.out.print(e+" "));
 				System.out.println();
+				return true;
 			}
-			return;
+			return false;
 		}
+		
 		list.add(arr[i]);
 		sum=sum+arr[i];
-		f(arr,i+1,k,list,sum);
+		if(f(arr,n,i+1,sum,k,list)) {
+			return true;
+		}
 		
 		list.remove(list.size()-1);
+		
 		sum=sum-arr[i];
-		f(arr,i+1,k,list,sum);
+		if(f(arr,n,i+1,sum,k,list)) {
+			return true;
+		}
+		return false;
 	}
 
 }
