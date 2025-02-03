@@ -20,12 +20,20 @@ public class SortMessageBasedOnPriorityAndTimestamp {
 	}
 
 	private static void solve(int[][] arr) {
+		//To display the index, we need to first store the original index
+		int[] ind=new int[arr.length];
+		for(int i=0;i<ind.length;i++) {
+			ind[i]=i;
+		}
 		
 		for(int i=1;i<arr.length;i++) {
 			if(arr[i][0]<arr[i-1][0]) {
 				int temp[]=arr[i];
+				int indTemp=ind[i];
 				arr[i]=arr[i-1];
+				ind[i]=ind[i-1];
 				arr[i-1]=temp;
+				ind[i-1]=indTemp;//swap the index also
 			}
 		}
 		
@@ -33,12 +41,18 @@ public class SortMessageBasedOnPriorityAndTimestamp {
 			if(arr[i][0]==arr[i-1][0]) {
 				if(arr[i][1]<arr[i-1][1]) {
 					int temp[]=arr[i];
+					int indTemp=ind[i];
 					arr[i]=arr[i-1];
+					ind[i]=ind[i-1];
 					arr[i-1]=temp;
+					ind[i-1]=indTemp;//swap the index also
 				}
 			}
 		}
-		
+		for(int i=0;i<ind.length;i++) {
+			System.out.print(ind[i]+" ");
+		}
+		System.out.println();
 	}
 
 }
