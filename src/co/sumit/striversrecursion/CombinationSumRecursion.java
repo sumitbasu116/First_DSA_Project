@@ -3,6 +3,7 @@ package co.sumit.striversrecursion;
 import java.util.ArrayList;
 import java.util.List;
 
+//element can repeat
 public class CombinationSumRecursion {
 
 	public static void main(String[] args) {
@@ -42,7 +43,6 @@ public class CombinationSumRecursion {
 		
 		//not pick the same element, continue with the next element
 		f(arr,target,i+1,list);
-		
 	}
 
 }
