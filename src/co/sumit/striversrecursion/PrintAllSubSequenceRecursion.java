@@ -25,7 +25,7 @@ public class PrintAllSubSequenceRecursion {
 		//pick the element
 		list.add(arr[i]);
 		f(arr,i+1,list);
-		//in order to not pick the element, first remove from the List
+		//in order to not pick the element, first remove from the List to get back to the original array
 		list.remove(list.size()-1);
 		
 		//not pick the element
