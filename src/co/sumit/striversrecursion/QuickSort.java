@@ -10,6 +10,11 @@ public class QuickSort {
 		Arrays.stream(arr).forEach(e->System.out.print(e+" "));
 	}
 
+	/*
+	 * 1. Pick up a pivot and place in its correct place.
+	 * 2. Smaller go on the left and larger go on the right. 
+	 */
+	
 	private static void quicksort(int[] arr,int low,int high) {
 		if(low>=high) {
 			return;
