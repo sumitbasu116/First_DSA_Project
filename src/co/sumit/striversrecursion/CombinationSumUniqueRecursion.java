@@ -35,6 +35,7 @@ public class CombinationSumUniqueRecursion {
 		 * suppose we can start from index 2, Then we can either choose the element from 3rd followed 4th and so on.
 		 */
 		for(int i=ind;i<arr.length;i++) {
+			// Skip duplicates to ensure unique combinations.
 			/* Example 1:
 			 * {1,1,1,2,2} and target = 4, suppose, we choose {1,1,2}, here, the first two 1s are from the index 0th and 1st.
 			 * Hence, we can not choose 2nd index 1 as then it will create the same combination.
@@ -44,6 +45,7 @@ public class CombinationSumUniqueRecursion {
 			if(i>ind && arr[i]==arr[i-1]) {
 				continue;
 			}
+			// If the current number is greater than the remaining target, break (as array is sorted).
 			if(arr[i]>target) {
 				break;
 			}
