@@ -28,24 +28,21 @@ public class MergeSort {
 
 	private static void merge(int[] arr, int low, int mid, int high) {
 		int[] temp = new int[arr.length];
-		int left=low;int right=mid+1;
+		int left=low;
+		int right=mid+1;
 		int tepmpInd=0;
 		while(left<=mid && right<=high) {
 			if(arr[left]<=arr[right]) {
-				temp[tepmpInd++]=arr[left];
-				left++;
+				temp[tepmpInd++]=arr[left++];
 			}else {
-				temp[tepmpInd++]=arr[right];
-				right++;
+				temp[tepmpInd++]=arr[right++];
 			}
 		}
 		while(left<=mid) {
-			temp[tepmpInd++]=arr[left];
-			left++;
+			temp[tepmpInd++]=arr[left++];
 		}
 		while(right<=high) {
-			temp[tepmpInd++]=arr[right];
-			right++;
+			temp[tepmpInd++]=arr[right++];
 		}
 		for(int i=low,j=0;i<=high;i++,j++) {
 			arr[i]=temp[j];
