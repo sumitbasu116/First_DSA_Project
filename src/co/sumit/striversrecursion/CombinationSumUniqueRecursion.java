@@ -27,7 +27,7 @@ public class CombinationSumUniqueRecursion {
             System.out.println(list);
             return;
         }
-        
+         //it means we have processed all elements or we stop further recursion (as the array is sorted, larger elements won't work).
         if (index >= arr.length || arr[index] > target) return;
 
         // Pick the current element
