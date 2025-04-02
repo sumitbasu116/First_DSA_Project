@@ -26,14 +26,13 @@ public class CombinationSumRecursion {
 
 	private static void f(int[] arr, int target, int i, List<Integer> list) {
 		
-		if(i==arr.length) {
-			if(target==0) {
-				list.stream().forEach(e->System.out.print(e+" "));
-				System.out.println();
-			}
+		if (target == 0) {
+            System.out.println(list);
+            return;
+        }
+		if(i >= arr.length) {
 			return;
 		}
-		
 		//pick the same element
 		if(arr[i]<=target) {//we can only pick up an element which is less than or equal to target 
 			list.add(arr[i]);
