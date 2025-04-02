@@ -9,6 +9,14 @@
 - Foundation Problems : PrintNamesNTimesApproachOne,PrintNamesNTimesApproachTwo,PrintOneToN,PrintNToOneApproachOne,PrintNToOneApproachTwo,PrintOneToNWithoutPlus,PrintSumFirstNNumbersRecursion,PrintSumFirstNNumbersRecursionFunction, ReverseArrayRecursionTwoParameters,StringPalindromeRecursion,FibonacciRecursion,FibonacciRecursionTwoFunctionBreakdown.
 - Problem 2: PrintAllSubSequenceRecursion
 - Problem 3: PrintAllSubSequenceSumKRecursion
+- Problem 4: PrintCountOfAllSubSequencesOfSumRecursion
+- Problem 5: PrintOnlyOneSubSequenceOfSumRecursion
+- Problem 6: MergeSort
+- Problem 7: Quicksort
+- Problem 8: https://www.naukri.com/code360/problems/combination-sum_981296
+- Problem 9: https://www.naukri.com/code360/problems/combination-sum-ii_1112622
+- Problem 10: https://www.naukri.com/code360/problems/subset-sum_3843086
+- Problem 11: https://www.naukri.com/code360/problems/unique-subsets_3625236
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
 - Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
@@ -65,6 +73,14 @@
 # Recursion Problems video solution
 - Problem 2: https://youtu.be/AxNNVECce8c?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
 - Problem 3: https://youtu.be/eQCS_v3bw0Q?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 4: https://youtu.be/eQCS_v3bw0Q?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 5: https://youtu.be/eQCS_v3bw0Q?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 6: https://youtu.be/ogjf7ORKfd8?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 7: https://youtu.be/WIrA4YexLRQ?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 8: https://youtu.be/OyZFFqQtu98?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 9: https://youtu.be/G1fRTGRxXU8?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 10: https://youtu.be/rYkfBRtMJr8?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+- Problem 11: https://youtu.be/RIn3gOkbhQE?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
 # DP Problems video solution
 - Problem 1: https://youtu.be/mLfjzJsN8us?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
 - Problem 2: https://youtu.be/EgG3jsGoPvQ?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
