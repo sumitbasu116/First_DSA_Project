@@ -7,9 +7,9 @@ import java.util.List;
 public class CombinationSumUniqueRecursion {
 
 	public static void main(String[] args) {
-		int[] arr = {10 ,1, 2,7 ,6 ,1 ,5};
-		
-		int target =8;
+		int[] arr = { 10, 1, 2, 7, 6, 1, 5 ,2};
+
+		int target = 11;
 		
 		solve(arr,target);
 
