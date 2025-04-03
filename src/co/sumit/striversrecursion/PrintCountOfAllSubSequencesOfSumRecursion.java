@@ -10,14 +10,12 @@ public class PrintCountOfAllSubSequencesOfSumRecursion {
 	}
 
 	private static void solve(int[] arr, int k) {
-		int count =0;
-		count=f(arr,arr.length,0,0,k,count);
-		System.out.println(count);
+		System.out.println(f(arr,0,0,k));
 	}
 
-	private static int f(int[] arr,int n, int i,int sum, int k, int count) {
+	private static int f(int[] arr,int i,int sum, int k) {
 		
-		if(i==n) {
+		if(i==arr.length) {
 			if(sum==k) {
 				return 1;
 			}
@@ -25,10 +23,10 @@ public class PrintCountOfAllSubSequencesOfSumRecursion {
 		}
 		
 		sum=sum+arr[i];
-		int l=f(arr,n,i+1,sum,k,count);
+		int l=f(arr,i+1,sum,k);
 		
 		sum=sum-arr[i];
-		int r=f(arr,n,i+1,sum,k,count);
+		int r=f(arr,i+1,sum,k);
 		return l+r;
 	}
 

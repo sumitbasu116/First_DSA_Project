@@ -9,10 +9,10 @@ public class Singleton {
 		if(object==null) {
 			synchronized (Singleton.class) {
 				if(object==null) {
-					return new Singleton();
+					object = new Singleton();
 				}
 			}
 		}
-		return new Singleton();
+		return object;
 	}
 }
