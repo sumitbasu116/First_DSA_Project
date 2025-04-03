@@ -63,6 +63,10 @@
 ## Stocks Problems
 - Problem 1: Keep the purchase price minimum and the profit should be maximum.
 - Problem 2: If an element is larger than the previous then add the difference in the profit.
+## Recursion Problems
+- Problem 9: Draw the diagram. Consider that we are collecting the subsets into a list.
+- Problem 10: Draw the diagram. Consider that we are collecting the subsets into a list.
+- Problem 11: Draw the diagram. Consider that we are collecting the subsets into a list and another array to mark the already choosen element.
 # Interval Problems video solution
 - Problem 1: https://youtu.be/PaJxqZVPhbg
 - Problem 2: https://youtu.be/44H3cEC2fFM
