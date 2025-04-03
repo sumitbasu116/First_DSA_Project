@@ -17,6 +17,7 @@
 - Problem 9: https://www.naukri.com/code360/problems/combination-sum-ii_1112622
 - Problem 10: https://www.naukri.com/code360/problems/subset-sum_3843086
 - Problem 11: https://www.naukri.com/code360/problems/unique-subsets_3625236
+- Problem 12: https://www.naukri.com/code360/problems/permutations-of-a-string_985254
 # DP Problems
 - Problem 1: https://leetcode.com/problems/climbing-stairs/description/
 - Problem 2: https://www.naukri.com/code360/problems/frog-jump_3621012
@@ -64,9 +65,10 @@
 - Problem 1: Keep the purchase price minimum and the profit should be maximum.
 - Problem 2: If an element is larger than the previous then add the difference in the profit.
 ## Recursion Problems
-- Problem 9: Draw the diagram. Consider that we are collecting the subsets into a list.
+- Problem 9: Draw the diagram.
 - Problem 10: Draw the diagram. Consider that we are collecting the subsets into a list.
-- Problem 11: Draw the diagram. Consider that we are collecting the subsets into a list and another array to mark the already choosen element.
+- Problem 11: Draw the diagram. Consider that we are collecting the subsets into a list.
+- Problem 12: Draw the diagram. Consider that we are collecting the subsets into a list and another array to mark the already choosen element.
 # Interval Problems video solution
 - Problem 1: https://youtu.be/PaJxqZVPhbg
 - Problem 2: https://youtu.be/44H3cEC2fFM
